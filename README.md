@@ -12,4 +12,10 @@ Install composer recipes.
 
 # Usage
 
-    recipe[composer]
+## Sample in roles
+
+    name "composer"
+    description "composer"
+    run_list(
+	    "recipe[composer]"
+	)
